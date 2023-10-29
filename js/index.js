@@ -66,3 +66,5 @@ let botonVerDetalle = document.querySelectorAll(".botonVerMas");
 
 
 
+
+

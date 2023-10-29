@@ -14,7 +14,7 @@ a {
 }
 
 body {
-    background-color: #e6d9d9;
+    background-color: #d3d2d2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -53,17 +53,26 @@ h1 {
     width: 70%;
     height: 100%;
     display: flex;
-    gap: 2px;
+    gap: 5px;
 }
 
 
 .botonNav{
     height: 100%;
     padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+.imgCarrito {
+    width: 50px;
+    height: 50px;
+    margin: -5px;
 }
 
 main {
-    background-color: #e6d9d9;
+    background-color: #d3d2d2;
 }
 
 
@@ -137,7 +146,7 @@ main {
 /*Estilos footer*/
 
 .footer{
-    height: 300px;
+    height: 200px;
     width: 100%;
     margin-top: 100px;
     background-color: #608ee2;
@@ -161,6 +170,9 @@ main {
 .itemsRedes{
     list-style: none;
     padding: 0%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .logoRedes:hover{
